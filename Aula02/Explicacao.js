@@ -1,15 +1,11 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
+const variavelNova = 'Valor deste variável é 20';
 
-    <script src="Explicação.js">
+console.log(variavelNova);
 
-        //String em resumo são textos que podem ser utilizados no JavaScript
+let stringTemplate = `String Template usada para ${1 + 1}`;
+console.log(stringTemplate)
+
+//String em resumo são textos que podem ser utilizados no JavaScript
         //E para ultiliza-lo podemos usar com aspas simples, duplas, ou String template.
         let aspasSimples = 'Estamos criando uma String com aspas simples';
 
@@ -38,7 +34,3 @@
 
         console.log(nomeCompletoTemplate);
 
-    </script>
-    
-</body>
-</html>
