@@ -17,6 +17,6 @@ let listaDeBandas = [
     'Malta',
     'Roberto Carlos',
     'Artista Desconhecido',
-    'Artista ânonimo'
+    'Artista ânonimo',
 ];
 
