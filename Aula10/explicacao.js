@@ -22,9 +22,18 @@ function changeType() {
         case 'text':
             input.setAttribute('type', 'number');
             break;
-    }
 
-  
+        case 'number':
+            input.setAttribute('type', 'radio');
+            break;
+
+        case 'radio':
+            input.setAttribute('type', 'range');
+            break;
+
+        default:
+            input.setAttribute('type', 'type');
+    }
 }
 
 
