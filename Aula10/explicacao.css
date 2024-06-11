@@ -1,0 +1,44 @@
+body{
+    background-color: grey;
+}
+
+.secao{
+    text-align: center;
+    padding: 2rem;
+}
+
+
+.div-pai{
+    text-align: center;
+    justify-content: center;
+    margin: 2rem auto;
+}
+
+.div-pai div{
+    padding: 4rem;
+}
+
+.div-pai button{
+     padding: 1rem;
+     border-radius: 1rem;
+     box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.651);
+}
+
+.div-pai button:hover{
+    background-color: beige;
+    color: #c61708;
+    transition: 0.8s;
+}
+
+.div-pai img{
+    border-radius: 1rem;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.651);
+}
+
+
+img {
+    height: auto;
+    max-width: 69em;
+    display: block;
+    margin: 2rem auto;
+}
